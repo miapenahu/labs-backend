@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 @SpringBootTest
 public class LabsApplicationTests{
 
-	@Test
+/*	@Test
 	public void testAssertionSuccess()
 	{
 		String expected = "apples";
@@ -22,8 +22,9 @@ public class LabsApplicationTests{
 
 		assertEquals(assertionFailedMessage,expected,actualCorrect);
 	}
-
-/*	@Test
+*/
+	// Branch feature/failure
+	@Test
 	public void testAssertionFailed()
 	{
 		String expected = "apples";
@@ -33,6 +34,6 @@ public class LabsApplicationTests{
 
 		assertEquals(assertionFailedMessage,expected,actualIncorrect);
 	}
-*/
+
 }
 
