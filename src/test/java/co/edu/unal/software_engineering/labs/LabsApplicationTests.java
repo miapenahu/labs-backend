@@ -12,8 +12,9 @@ import static org.junit.Assert.assertEquals;
 @SpringBootTest
 public class LabsApplicationTests{
 
-	@Test
-	public void testAssertionSuccess()
+	//Branch feature/success
+	@Test 
+	public void testAssertionSuccess() 
 	{
 		String expected = "apples";
 		String actualCorrect = "apples";
